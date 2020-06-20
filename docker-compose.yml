@@ -1,0 +1,13 @@
+version: '3'
+services:
+  node:
+    build:
+      context: .
+    tty: true
+    environment:
+      - NODE_ENV=production
+    volumes:
+    - ./:/usr/src/app
+    command: sh -c "npx create-react-app react-ui-sample --template typescript && yarn add @material-ui/core @material-ui/icons && cd react-ui-sample && yarn start"
+    ports:
+    - "3000:3000"
