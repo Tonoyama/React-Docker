@@ -1,7 +1,7 @@
 # React-Docker
-Reactの開発をDocker環境上で構築できる。
+Reactの開発環境をDockerで構築できる。
 
-リバースプロキシにNginxを使い、コンテナデプロイできる。
+リバースプロキシにNginxを使い、コンテナデプロイもできる。
 
 ## 開発環境構築
 本環境では、TypeScript、Material UIを追加している
