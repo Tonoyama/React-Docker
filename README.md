@@ -7,7 +7,7 @@ Reactの開発をDocker環境上で構築できる。
 本環境では、TypeScript、Material UIを追加している
 
 ```
-git clone 
+git clone https://github.com/Tonoyama/React-Docker.git
 docker-compose build
 docker-compose up
 ```
