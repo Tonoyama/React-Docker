@@ -27,4 +27,5 @@ gcloud builds submit --tag gcr.io/ID_OF_YOUR_PROJECT/react-sample-docker
 gcloud beta run deploy --image gcr.io/ID_OF_YOUR_PROJECT/react-sample-docker --platform managed
 ```
 こんな感じになる
+
 https://sample-app-7umggk7w6a-an.a.run.app
