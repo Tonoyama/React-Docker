@@ -22,8 +22,8 @@ yarn start
 
 ## デプロイ
 
-## AWS(Amazon ECS)
-Docker上で動くため、Amazon ECS(Elastic Container Service)にイメージをECRにpushし、
+## AWS：Amazon ECS(Elastic Container Service)
+Docker上で動くため、イメージをECRにpushし、
 
 ECSクラスターの作成とタスク定義作成を行えばデプロイできる。
 
