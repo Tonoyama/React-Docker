@@ -20,9 +20,14 @@ cd react-ui-sample
 yarn start
 ```
 
-## GCPにコンテナデプロイ
+## デプロイ
 
-Docker上で動くため、AWSのECSにも適用可能。
+## AWS(Amazon ECS)
+Docker上で動くため、Amazon ECS(Elastic Container Service)にイメージをECRにpushし、
+
+ECSクラスターの作成とタスク定義作成を行えばデプロイできる。
+
+## GCPにコンテナデプロイ
 
 `pwd`でReactのディレクトリにいることを確認する。
 
