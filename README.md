@@ -8,7 +8,7 @@ Reactの開発環境をDockerで構築できる。
 
 注：今回のサンプルは、既にreact-create-appでReactファイルが作られているので、`docker-compose`する必要はない。
 
-新しいプロジェクトを作りたい場合、`rm -rf`で既存プロジェクトを削除すると新規作成するといい感じに作られる。
+新しいプロジェクトを作りたい場合、`rm -rf`で既存プロジェクトを削除して、`docker-compose up`するといい感じに作られる。
 ```
 git clone https://github.com/Tonoyama/React-Docker.git
 docker-compose build
