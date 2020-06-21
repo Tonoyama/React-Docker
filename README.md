@@ -24,6 +24,8 @@ yarn start
 
 Docker上で動くため、AWSのECSにも適用可能。
 
+`pwd`でReactのディレクトリにいることを確認する。
+
 ```
 docker build -t react-sample-docker .
 gcloud builds submit --tag gcr.io/ID_OF_YOUR_PROJECT/react-sample-docker
