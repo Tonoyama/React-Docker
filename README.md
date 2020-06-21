@@ -29,6 +29,6 @@ docker build -t react-sample-docker .
 gcloud builds submit --tag gcr.io/ID_OF_YOUR_PROJECT/react-sample-docker
 gcloud beta run deploy --image gcr.io/ID_OF_YOUR_PROJECT/react-sample-docker --platform managed
 ```
-こんな感じになる
+こんな感じでお手軽に、オートスケール、Nginx付きのデプロイが可能。
 
 https://sample-app-7umggk7w6a-an.a.run.app
